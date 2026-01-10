@@ -1,9 +1,9 @@
 const mineflayer = require('mineflayer');
 const bot = mineflayer.createBot({
-  host: 'localhost',
-  port: 25565,
-  username: 'AFK_Bot',
-  version: '1.20.1',
+  host: 'localhost',#ip
+  port: 25565,#port
+  username: 'AFK_Bot',#имя
+  version: '1.20.1',#версия
   auth: 'offline' #microsoft не надо ставить
 });
 
