@@ -4,21 +4,21 @@ const path = require('path');
 
 // Конфигурация
 const config = {
-  host: 'localhost',
-  port: 25565,
-  username: 'AFK_Bot',
-  version: '1.20.1',
-  auth: 'offline',
+  host: 'localhost',//адрес сервера
+  port: 25565,//порт сервера 25565 стандартный
+  username: 'AFK_Bot',//ник бота
+  version: '1.20.1',//версия маина
+  auth: 'offline',//тип учётки microsoft не работает(он и не нужен)
   
   // Настройки приветственного сообщения
-  welcomeMessage: 'Привет, я AFK бот!',
-  messageRepeatCount: 3,
-  messageInterval: 2000,
+  welcomeMessage: '/register 123 123',
+  messageRepeatCount: 2,//сколько раз писать сообшение
+  messageInterval: 1000,//кд отправки несокльких сообшений
   
   // Настройки переподключения
-  maxReconnectAttempts: 5,
-  minReconnectDelay: 1000,
-  maxReconnectDelay: 10000
+  maxReconnectAttempts: 10,//максимальное количество переподключений перед перезапуском
+  minReconnectDelay: 1000,//минимальное время рандомного перезахода
+  maxReconnectDelay: 10000//максимальное время рандомного перезахода
 };
 
 // Глобальные переменные
