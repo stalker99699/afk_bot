@@ -1,5 +1,5 @@
-AFK_Bot
-
+AFK_Bot+
+(тестов не было)
 Description: Самый базовый AFK бот для Minecraft на Node.js с автоматическим переподключением и приветственными сообщениями.
 
 Installation:     
