@@ -4,7 +4,7 @@ const bot = mineflayer.createBot({
   port: 25565,
   username: 'AFK_Bot',
   version: '1.20.1',
-  auth: 'offline' #microsoft не надо ставить
+  auth: 'offline' #не поддерживается microsoft 
 });
 
 bot.on('login', () => console.log('Подключён'));
