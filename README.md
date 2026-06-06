@@ -1,5 +1,5 @@
 # AFK Bot
-🤖 Этот проект на 100% сгенерирован с помощью ИИ. Простите меня. / 🤖 This project is 100% AI-generated. Forgive me.
+> 🤖 Этот проект на 100% сгенерирован с помощью ИИ. Простите меня. / 🤖 This project is 100% AI-generated. Forgive me.
 
 Простейший AFK-бот для Minecraft на Node.js с использованием библиотеки `mineflayer`.
 
